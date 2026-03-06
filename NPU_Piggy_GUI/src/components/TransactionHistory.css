@@ -1,0 +1,87 @@
+.transaction-history {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.history-title {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table thead {
+  background: #f9fafb;
+}
+
+.transactions-table th {
+  padding: 0.875rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #6b7280;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.transactions-table td {
+  padding: 0.875rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.transactions-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.merchant-cell {
+  font-weight: 500;
+  color: #111827;
+}
+
+.amount-cell {
+  font-weight: 600;
+  color: #059669;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.delete-button {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+}
+
+.delete-button:hover {
+  color: #dc2626;
+}
+
+.empty-message {
+  text-align: center;
+  color: #9ca3af;
+  padding: 2rem !important;
+}

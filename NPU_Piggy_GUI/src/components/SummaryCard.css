@@ -1,0 +1,32 @@
+.summary-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 4px solid #6366f1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-title {
+  font-size: 0.875rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.summary-icon {
+  font-size: 1.5rem;
+}
+
+.summary-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111827;
+}
